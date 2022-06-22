@@ -1,15 +1,15 @@
 import Header from '../components/Header'
-import Lesson from '../components/Lesson'
 import Sidebar from '../components/Sidebar'
 import Video from '../components/Video'
 
 export default function Event() {
   return (
-    <div>
+    <div className='flex flex-col min-h-screen'>
       <Header />
-      <Sidebar />
-      <Video />
-      <Lesson />
+      <main className='flex flex-1'>
+        <Video />
+        <Sidebar />
+      </main>
     </div>
   )
 }
