@@ -85,9 +85,6 @@ export default function Subscribe() {
         </div>
       </div>
 
-      <h2>OPTION 1</h2>
-      <img src='/src/assets/code-mockup1.svg' className='mt-10' alt='' />
-      <h2>OPTION 2</h2>
       <div className='mt-10'>
         <Mockup />
       </div>
